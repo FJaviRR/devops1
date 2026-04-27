@@ -1,15 +1,16 @@
-"""Módulo para realizar operaciones aritméticas básicas."""
+"""
+Módulo de operaciones matemáticas simples.
+Este módulo proporciona una función para sumar dos números enteros.
+"""
 
 
-def suma(a_val: int, b_val: int) -> int:
+def suma(primer_numero: int, segundo_numero: int) -> int:
     """
-    Calcula la suma de dos números enteros.
+    Calcula y devuelve la suma de dos números enteros.
 
-    Args:
-        a_val (int): El primer número.
-        b_val (int): El segundo número.
-
-    Returns:
-        int: La suma de a y b.
+    :param primer_numero: El primer sumando.
+    :param segundo_numero: El segundo sumando.
+    :return: La suma resultante de ambos parámetros.
     """
-    return a_val + b_val
+    return primer_numero + segundo_numero
+    
