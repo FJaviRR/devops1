@@ -13,4 +13,3 @@ def suma(primer_numero: int, segundo_numero: int) -> int:
     :return: La suma resultante de ambos parámetros.
     """
     return primer_numero + segundo_numero
-    
